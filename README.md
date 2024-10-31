@@ -5,5 +5,3 @@
     - Used BeautifulSoup and Selenium Webdriver to scrape HTML content
     - Used Inquirer for prompting for user input
 
-    # next page
-    response.css('a.next_page').attrib['href']
