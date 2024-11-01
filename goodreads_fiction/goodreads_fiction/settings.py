@@ -13,6 +13,9 @@ SPIDER_MODULES = ["goodreads_fiction.spiders"]
 NEWSPIDER_MODULE = "goodreads_fiction.spiders"
 
 
+MONGO_URI = "mongodb://localhost:27017"
+MONGO_DATABASE = "goodreads_db"
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "goodreads_fiction (+http://www.yourdomain.com)"
 
@@ -62,9 +65,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "goodreads_fiction.pipelines.GoodreadsFictionPipeline": 300,
-#}
+ITEM_PIPELINES = {
+   "goodreads_fiction.pipelines.GoodreadsFictionPipeline": 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
