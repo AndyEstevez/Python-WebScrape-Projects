@@ -12,6 +12,9 @@ BOT_NAME = "baseballhats"
 SPIDER_MODULES = ["baseballhats.spiders"]
 NEWSPIDER_MODULE = "baseballhats.spiders"
 
+MONGO_URI = "mongodb:/localhost:27017"
+MONGO_DATABASE = "hats_db"
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "baseballhats (+http://www.yourdomain.com)"
