@@ -15,7 +15,8 @@ NEWSPIDER_MODULE = "baseballhats.spiders"
 MONGO_URI = "mongodb://localhost:27017"
 MONGO_DATABASE = "hats_db"
 
-
+LOG_LEVEL = "INFO"
+LOG_FILE = "hat_scraper.log"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "baseballhats (+http://www.yourdomain.com)"
 
