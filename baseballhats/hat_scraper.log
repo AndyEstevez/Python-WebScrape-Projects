@@ -70,4 +70,3 @@
  'scheduler/enqueued': 5,
  'scheduler/enqueued/memory': 5,
  'start_time': datetime.datetime(2024, 11, 2, 23, 0, 27, 386077, tzinfo=datetime.timezone.utc)}
-2024-11-02 19:01:26 [scrapy.core.engine] INFO: Spider closed (finished)

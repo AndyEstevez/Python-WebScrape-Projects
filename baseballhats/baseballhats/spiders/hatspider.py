@@ -14,6 +14,14 @@ class HatSpider(scrapy.Spider):
             yield scrapy.Request(url, callback=self.parse, errback=self.log_error)
 
     def parse(self, response): # handle scraping site for saving into Item
+        """
+        @url https://www.mlbshop.com/new-york-mets/men-caps/t-36993297+ga-90+d-7850114425+z-9-2740874255?_ref=p-DLP:m-SIDE_NAV
+        @returns items 1 72
+        @returns request 1 2
+        @scrapes name price url image_url stock
+        """
+
+
         for hat in response.css('div.column'):
             item = BaseballhatsItem()
             item['name'] = hat.css('div.product-card-title > a::attr(title)').get()
