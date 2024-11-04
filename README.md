@@ -18,4 +18,4 @@
     - Used Scrapy for extracting data
     - Saved into MongoDB from pipeline, Output log to file
     - Spider Contracts for assertions in scraping data <br>
-<img src="images/scrapy_contracts.png" height='auto' width='auto/> 
+<img src="images/scrapy_contracts.png" height='auto' width='auto'/> 
