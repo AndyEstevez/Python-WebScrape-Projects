@@ -1,5 +1,11 @@
 ## Python Web Scraping Projects
 
+### Packages:
+    - <a href="https://pypi.org/project/beautifulsoup4/">Beautiful Soup</a>
+    - <a href="https://pypi.org/project/selenium/">Selenium</a>
+    - <a href="https://scrapy.org/">Scrapy</a>
+    - <a href="https://pypi.org/project/pymongo/">Pymongo</a>
+    - <a href="https://pypi.org/project/inquirer/">Inquirer</a>
 
 - <a href="https://github.com/AndyEstevez/Python-WebScrape-Projects/blob/main/Letterboxd_Top250_Scraper.py">Get Top 100 and Top Genre-specific films from Letterboxd's Top 250</a>
     - Used BeautifulSoup and Selenium Webdriver to scrape HTML content
