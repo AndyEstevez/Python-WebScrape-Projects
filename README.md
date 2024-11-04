@@ -13,3 +13,9 @@
     - Store into MongoDB with Scrapy pipeline
     - No duplicate items getting stored into MongoDB when running the spider <br>
 <img src="images/goodreads_db.png" height='auto' width='auto'/>
+
+- <a href="https://github.com/AndyEstevez/Python-WebScrape-Projects/tree/main/baseballhats"></a>
+    - Used Scrapy for extracting data
+    - Saved into MongoDB from pipeline, Output log to file
+    - Spider Contracts for assertions in scraping data
+<img src="images/scrapy_contracts.png" height='auto' width='auto/> 
