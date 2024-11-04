@@ -14,7 +14,7 @@
     - No duplicate items getting stored into MongoDB when running the spider <br>
 <img src="images/goodreads_db.png" height='auto' width='auto'/>
 
-- <a href="https://github.com/AndyEstevez/Python-WebScrape-Projects/tree/main/baseballhats"></a>
+- <a href="https://github.com/AndyEstevez/Python-WebScrape-Projects/tree/main/baseballhats">Get all NY Mets hats from MLBShop</a>
     - Used Scrapy for extracting data
     - Saved into MongoDB from pipeline, Output log to file
     - Spider Contracts for assertions in scraping data <br>
